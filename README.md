@@ -7,8 +7,6 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Portifólio</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -93,7 +91,6 @@ span{
         </a>
       </div>
     </section>
-    <img src="img/FotoDePerfil.png" alt="Foto de perfil de Estêvão Felipe">
   </main>
   <footer>
 
