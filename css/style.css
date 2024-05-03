@@ -3,13 +3,15 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 img{
   max-width: 100%;
+  max-width: 500px;
   height: auto;
 }
 body{
-  height : 100vh;
+  height : 80vh;
   background-color: #2B3233;
   box-sizing: border-box;
   color:aliceblue;
