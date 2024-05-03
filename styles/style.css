@@ -57,14 +57,12 @@ span{
   align-items: center;
 }
 .apresentacao_imagem{
-  width: 50%;
   max-width: 20rem;
 }
 .apresentacao_conteudo_titulo{
   font-size: 2rem;
   font-family: var(--fonte-principal);
-  align-items: center;
-  justify-content: center;
+
 }
 .titulo_inicial{
   font-size: 2rem;
@@ -95,8 +93,10 @@ span{
   font-family: var(--fonte-principal);
 }
 .apresentacao_topico>img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  margin-top: 10rem;
 }
 .apresentacao_conteudo_titulo{
   margin-bottom: 1rem;
@@ -104,8 +104,11 @@ span{
 }
 .apresentacao_topico>ul{
   padding-left: 2rem; 
+
 }
-.apresentacao_topico{
+.apresentacao_topico{ 
+  width: 100%;
+  display: grid;
   align-items: center;
   justify-content: center;
 }
