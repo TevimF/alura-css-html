@@ -4,34 +4,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Portifólio</title>
 </head>
 <body>
-  <header>
-    
+  <header class="cabecalho">
+    <nav class="cabecalho_menu">
+      <a class="cabecalho_menu_link" href="index.html"><b>Home</b></a>
+      <a class="cabecalho_menu_link" href="about.html"><b>Sobre Mim</b></a>
+      <a class="cabecalho_menu_link" href="curriculo.html"><b>Curriculo</b></a>
+    </nav>
   </header>
-  <main class="apresentacao">
-    <section class="apresentacao_conteudo_geral">
-      <h1 class="apresentacao_conteudo_titulo">
-        Eleve seu negócio digital a outro nível <strong class="titulo_destaque">com um <span>Front-end</span> de qualidade!</strong>
-      </h1>
-      <p class="apresentacao_conteudo_texto">
-        Olá! Sou Estêvão Felipe, desenvolvedor Front-end com especialidade em <strong>React, HTML e CSS</strong>. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
-      </p>
-      <div class="apresentacao_links">
-        <a class="apresentacao_botao" href="https://www.instagram.com/estevao_felipe/" target="_blank">
+  <main>
+    <h1 class="titulo_inicial">
+      Eleve seu negócio digital a outro nível <strong class="titulo_destaque">com um <span>Front-end</span> de qualidade!</strong>
+    </h1>
+    
+    <conteiner class="apresentacao">
+      <section class="apresentacao_conteudo_geral">
+        <p class="apresentacao_conteudo_texto">
+          Olá! Sou Estêvão Felipe, desenvolvedor Front-end com especialidade em <strong>React, HTML e CSS</strong>. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?
+        </p>
+        
+      </section>
+      <img class="apresentacao_imagem" src="assets/FotoDePerfil.png" alt="Foto de perfil de Estêvão Felipe">
+    </conteiner>
+    <div class="links_social">
+      <h2>Acesse minhas redes!</h2>
+      <conteiner class="botoes_grade">
+        <a class="botao_social" href="https://www.instagram.com/estevao_felipe/" target="_blank">
+          <img src="assets/instagram.png" alt="Instagram">
           <b>Instagram</b>
         </a>
-        <a class="apresentacao_botao" href="https://github.com/TevimF" target="_blank">
+        <a class="botao_social" href="https://github.com/TevimF" target="_blank">
+          <img src="assets/github.png" alt="GitHub">
           <b>GitHub</b>
+        <a class="botao_social" href="https://www.linkedin.com/in/estevao-fonseca/" target="_blank">
+          <img src="assets/linkedin.png" alt="Linkedin">
+          <b>Linkedin</b>
         </a>
-      </div>
-    </section>
-    <img src="img/FotoDePerfil.png" alt="Foto de perfil de Estêvão Felipe">
+        <a class="botao_social" href="https://twitter.com/EstevaoFelipeF" target="_blank">
+          <img src="assets/twitter-novo.png" alt="Twitter">
+          <b>Twitter</b>
+            </a>
+      </conteiner>
+    </div>
   </main>
-  <footer>
-
+  <footer class="rodape">
+    <p><b>Desenvolvido por Estêvão Felipe no curso de HTML + CSS da Alura</b></p>
   </footer>
 </body>
 </html>
